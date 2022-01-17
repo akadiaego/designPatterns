@@ -10,6 +10,4 @@ public abstract class Pancake {
 
     public abstract double cost();
 
-
-
 }
