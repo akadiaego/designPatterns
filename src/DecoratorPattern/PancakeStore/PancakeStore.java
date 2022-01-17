@@ -16,7 +16,7 @@ public class PancakeStore {
         System.out.println(firedStickPancake.getDescription() + " ￥"+firedStickPancake.cost());
         System.out.println("------------薄脆煎饼----------------");
         Pancake crispPancke = new CrispPancake();
-        System.out.println(firedStickPancake.getDescription() + " ￥"+firedStickPancake.cost());
+        System.out.println(crispPancke.getDescription() + " ￥"+crispPancke.cost());
         System.out.println("------------油条煎饼加双蛋----------------");
         Pancake doubleEggPancke = new FiredBreadStickPancake();
         doubleEggPancke = new Egg(doubleEggPancke);
