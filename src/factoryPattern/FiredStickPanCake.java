@@ -24,7 +24,7 @@ public class FiredStickPanCake extends PanCake{
     @Override
     public void bake() {
         System.out.println("烧开油摊面粉糊");
-        System.out.println("加配菜：");
+        System.out.print("加配菜：");
         for (String filling : fillings) {
             System.out.println(filling);
         }

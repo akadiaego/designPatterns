@@ -19,4 +19,11 @@ public class PancakeStore {
         panCake.box();
         return panCake;
     }
+
+    public static void main(String[] args) {
+        SimplePancakeFactory mfactory = new SimplePancakeFactory();
+        PancakeStore pancakeStore = new PancakeStore(mfactory);
+        pancakeStore.orderPancake("薄脆煎饼果子");
+        pancakeStore.orderPancake("油条煎饼果子");
+    }
 }

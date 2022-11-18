@@ -1,8 +1,8 @@
 package factoryPattern;
 
-public class CrispPanCake extends PanCake{
-    public CrispPanCake() {
-        this.name = "薄脆煎饼果子";
+public class BeijingCrispPanCake extends PanCake{
+    public BeijingCrispPanCake() {
+        this.name = "北京薄脆煎饼果子";
         this.fillings.add("薄脆");
 
     }

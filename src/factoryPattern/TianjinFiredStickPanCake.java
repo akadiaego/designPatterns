@@ -1,9 +1,9 @@
 package factoryPattern;
 
-public class CrispPanCake extends PanCake{
-    public CrispPanCake() {
-        this.name = "薄脆煎饼果子";
-        this.fillings.add("薄脆");
+public class TianjinFiredStickPanCake extends PanCake{
+    public TianjinFiredStickPanCake() {
+        this.name = "天津油条煎饼果子";
+        this.fillings.add("油条");
 
     }
 
@@ -13,7 +13,10 @@ public class CrispPanCake extends PanCake{
         System.out.println("加鸡蛋液...");
         System.out.println("加面粉糊...");
         System.out.println("打散");
-
+//        System.out.println("准备配菜: ");
+//        for (int i = 0; i < fillings.size(); i++) {
+//            System.out.println("   " + fillings.get(i));
+//        }
     }
 
     @Override
